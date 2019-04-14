@@ -108,9 +108,8 @@ a {
   color: $link-color;
   transition: $transition-basic;
   &:hover {
-    text-decoration: none;
-    color: $link-hover-color;
     transition: $transition-basic;
+    text-decoration: none;
   }
   &.disabled,
   &:disabled {
